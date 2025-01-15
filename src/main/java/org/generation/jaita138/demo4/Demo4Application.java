@@ -29,7 +29,7 @@ public class Demo4Application implements CommandLineRunner {
 		emp1.setName("Guybrush");
 		emp1.setLastname("Threepwood");
 		emp1.setBio("Mighty pirate");
-		emp1.setSalary(100000);
+		emp1.setSalary(1000000);
 
 		System.out.println(emp1);
 		employeeService.insertEmployee(emp1);
